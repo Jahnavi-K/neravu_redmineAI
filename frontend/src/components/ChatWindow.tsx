@@ -36,7 +36,7 @@ export default function ChatWindow({
           >
             {message.role === "user"
               ? `👤 ${currentUserName} (User)`
-              : "🤖 MirAI"}
+              : "🤖 ನೆರವುAI"}
 
             <span
               style={{
@@ -75,7 +75,7 @@ export default function ChatWindow({
               marginBottom: "5px"
             }}
           >
-            🤖 MirAI
+            🤖 ನೆರವುAI
 
             <span
               style={{

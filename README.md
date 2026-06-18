@@ -51,6 +51,7 @@ The project gradually evolved into a full-stack application featuring user authe
 
 ```bash
 cd backend
+pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
@@ -74,6 +75,20 @@ Frontend endpoint:
 http://localhost:5173
 ```
 
+## Screenshots
+
+### Login Page
+
+![Login Page](docs/screenshots/NeravuAI_loginPage.png)
+
+### AI-Assisted Comment Improvement
+
+![Improve Comment](docs/screenshots/NeravuAI_ImproveComment.png)
+
+### Generated Comment Review
+
+![Generated Comment](docs/screenshots/NeravuAI_GeneratedComment.png)
+
 ## Future Improvements
 
 * Better prompt engineering for ticket summarization
@@ -82,4 +97,3 @@ http://localhost:5173
 * Team collaboration features
 * Context-aware ticket recommendations
 * Containerized deployment
-
